@@ -1,0 +1,22 @@
+PC LAB 3D — ΔΗΜΟΣΙΕΥΣΗ ΣΤΟ GITHUB PAGES
+
+1. Στο GitHub δημιούργησε δημόσιο repository με ακριβές όνομα:
+   pc-lab-3d-greek
+2. Ανέβασε ΟΛΑ τα περιεχόμενα του φακέλου αυτού στη ρίζα του repository.
+   ΜΗΝ ανεβάσεις το ZIP ως μοναδικό αρχείο.
+   Για τη μεταφόρτωση μέσω browser: Add file > Upload files.
+   Ο κρυφός φάκελος .github/workflows πρέπει να περιλαμβάνεται.
+3. Settings > Pages > Build and deployment > Source: GitHub Actions.
+4. Άνοιξε Actions. Η ροή 'Publish PC LAB 3D to GitHub Pages'
+   πρέπει να ολοκληρωθεί επιτυχώς (πράσινο ✓).
+5. Άνοιξε:
+   https://TO-USERNAME-SOU.github.io/pc-lab-3d-greek/
+
+ΠΡΟΣΟΧΗ:
+- Το repository πρέπει να ονομάζεται ακριβώς pc-lab-3d-greek.
+  Αν χρησιμοποιήσεις άλλο όνομα, άλλαξε και το base στο vite.config.ts.
+- Η δημοσίευση μπορεί να χρειαστεί λίγα λεπτά.
+- Το Node.js δεν χρειάζεται στους υπολογιστές των μαθητών.
+- Η άδεια LICENSE του αρχικού PC Anatomy παραμένει στο έργο.
+- Αν το GitHub απορρίψει τη μεταφόρτωση πολλών αρχείων από τον browser,
+  χρησιμοποίησε GitHub Desktop για να ανεβάσεις όλο τον φάκελο.
